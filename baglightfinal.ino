@@ -16,7 +16,7 @@ int lightstate = 0;
 void setup() {
   pinMode(inPin, INPUT);
   val = digitalRead(inPin);
-  Serial.begin(9600);
+  //Serial.begin(9600);
   pixel.begin();
   pixel.setBrightness(85); // 1/3 brightness
 }
@@ -26,16 +26,16 @@ void loop() {
 valn = digitalRead(inPin);
 delay(50);
 if (valn != val){
-Serial.print("valn=");
-Serial.println(valn);
-Serial.print("val=");
-Serial.println(val);
+//Serial.print("valn=");
+//Serial.println(valn);
+//Serial.print("val=");
+//Serial.println(val);
 val = valn;
 lightstate = lightstate +1;
 if(lightstate > 5){
   lightstate = 0;
 }
-Serial.println(lightstate);
+//Serial.println(lightstate);
 }
 //white blink
   if (lightstate == 0) 
