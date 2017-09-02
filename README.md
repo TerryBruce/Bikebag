@@ -1,12 +1,14 @@
 # Bikebag
 Animated lights added to a bike bag.
 
-Pro trinket 5V 
-3 8-light Neopixel Strips
-1 switch
-1 10k resistor
+Pro trinket 5V - https://www.adafruit.com/product/2000
+3 8-light Neopixel Strips - https://www.adafruit.com/product/1426
+1 switch - https://www.adafruit.com/product/1092
+1 10k resistor - https://www.adafruit.com/product/2784
 
-3d printed printed part will be used to mount the three neopixel strips.
+3d printed printed part will be used to mount the three neopixel strips. The .stl file for the 3d printed part is included.
+
+check out the .JPG image that will show the wiring.
 
 wiring is pretty simple provide 5V and Ground for the neopixel strips and from Pin-4 to data in 
 of Neopixel Strip. 
