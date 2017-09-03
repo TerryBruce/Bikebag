@@ -2,8 +2,11 @@
 Animated lights added to a bike bag.
 
 Pro trinket 5V - https://www.adafruit.com/product/2000
+
 3 8-light Neopixel Strips - https://www.adafruit.com/product/1426
+
 1 switch - https://www.adafruit.com/product/1092
+
 1 10k resistor - https://www.adafruit.com/product/2784
 
 3d printed printed part will be used to mount the three neopixel strips. The .stl file for the 3d printed part is included.
